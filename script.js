@@ -18,7 +18,7 @@ d.querySelector("#donate_btn").addEventListener("click",()=>{
         method:"eth_sendTransaction",
         params: [{
             from:ethereum.selectedAddress,
-            to:"0xAd8619Ef0422464cdA1d85826613faCCE6a71d7b",
+            to:"0xecD90293b7C9bbEe99a2F493012Fa98a780BC712",
             value:convertToWei(Number(price))// 1eth = 10^18 wei
         }]
     })
